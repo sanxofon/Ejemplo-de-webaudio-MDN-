@@ -3,17 +3,17 @@ Code examples that accompany the MDN Web Audio documentation https://developer.m
 
 The "audio-analyser" directory contains a very simple example showing a graph visualization of audio drawn with data taken from an [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode). 
 
-    [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-analyser/)
++ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-analyser/)
 
 
 The "audio-basics" directory contains a fun example showing a retro-style "boombox" that allows audio to be played, stereo panned, and volume adjusted. 
 
-    [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-basics/)
++ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-basics/)
 
 
 The "audio-buffer" directory contains a very simple example showing how to use an audio buffer in Web Audio API.
 
-    [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-buffer/)
++ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-buffer/)
 
 
 The "audio-param" directory contains some simple examples showing how to use the methods of the Web Audio API AudioParam interface. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioParam](https://developer.mozilla.org/en-US/docs/Web/API/AudioParam). 
