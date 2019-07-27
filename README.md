@@ -1,106 +1,80 @@
-# webaudio-examples
+# Ejemplos audio web (MDN)
 
-Code examples that accompany the MDN Web Audio documentation https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+Ejemplos de código que acompañan a la documentación de MDN Web Audio https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
 
 
-
-The "audio-analyser" directory contains a very simple example showing a graph visualization of audio drawn with data taken from an [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode). 
+El directorio "analizador de audio" contiene un ejemplo muy simple que muestra una visualización gráfica del audio dibujado con datos tomados de un [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-analyser/)
 
 
 
-The "audio-basics" directory contains a fun example showing a retro-style "boombox" that allows audio to be played, stereo panned, and volume adjusted. 
+El directorio "audio-basics" contiene un ejemplo divertido que muestra un "boombox" de estilo retro que permite reproducir audio, panoramizar estéreo y ajustar el volumen.
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-basics/)
 
 
 
-The "audio-buffer" directory contains a very simple example showing how to use an audio buffer in Web Audio API. 
+El directorio "audio-buffer" contiene un ejemplo muy simple que muestra cómo utilizar un búfer de audio en la API de audio web.
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-buffer/)
 
 
 
-The "audio-param" directory contains some simple examples showing how to use the methods of the Web Audio API AudioParam interface. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioParam](https://developer.mozilla.org/en-US/docs/Web/API/AudioParam). 
+El directorio "audio-param" contiene algunos ejemplos sencillos que muestran cómo utilizar los métodos de la interfaz AudioParam de Web Audio API. Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioParamfont>(https://developer.mozilla.org/en-US/docs/Web/API/AudioParam).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audio-param/)
 
 
 
-The "audiocontext-states" directory contains a simple demo of the new Web Audio API AudioContext states, including the states property and the <code>close()</code>, <code>resume()</code> and <code>suspend()</code> methods. See [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) for more details. 
+El directorio "audiocontext-states" contiene una demostración simple de los nuevos estados de Web Audio API AudioContext, incluida la propiedad de los estados y los <code> close () </code>, <code> resume () </code> y <code > suspender () </code> métodos. Consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) para obtener más detalles.
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/audiocontext-states/)
 
 
 
-The "compressor-example" directory contains a simple demo to show usage of the Web Audio API createDynamicsCompressor() method and DynamicCompressorNode. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createDynamicsCompressor](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createDynamicsCompressor). 
+El directorio "compresor-ejemplo" contiene una demostración simple para mostrar el uso del método web Audio API createDynamicsCompressor () y DynamicCompressorNode. Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createDynamicsCompressor](https://developer.mozilla.org/en-US/docs/Web/API / AudioContext / createDynamicsCompressor).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/compressor-example/)
 
 
 
-The "create-media-stream-destination" directory contains a simple example showing how Web Audio API [AudioContext.createMediaStreamDestination](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamDestination) which can be used to output a stream, in this case to a MediaRecorder instance, to output a sinewave to an opus file. 
+El directorio "create-media-stream-destination" contiene un ejemplo simple que muestra cómo Web Audio API [AudioContext.createMediaStreamDestination](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamDestination) que se puede utilizar para generar una transmisión, en este caso a una instancia de MediaRecorder, para generar una onda sinusoidal a un archivo opus.
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/create-media-stream-destination/)
 
 
 
-The "decode-audio-data" directory contains a simple example demonstrating usage of the Web Audio API decodeAudioData() method. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/decodeAudioData](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/decodeAudioData). 
+El directorio "decode-audio-data" contiene un ejemplo simple que demuestra el uso del método decodeAudioData () de la API de audio web. Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/decodeAudioData](https://developer.mozilla.org/en-US/docs/Web/API / AudioContext / decodeAudioData).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/decode-audio-data/)
 
 
 
-The "iirfilter-node" directory contains an example showing usage of an [IIRFilterNode](https://developer.mozilla.org/en-US/docs/Web/API/IIRFilterNode). 
+El directorio "iirfilter-node" contiene un ejemplo que muestra el uso de un [IIRFilterNode](https://developer.mozilla.org/en-US/docs/Web/API/IIRFilterNode).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/iirfilter-node/)
 
 
 
-The "media-source-buffer" directory contains a simple example demonstrating usage of the Web Audio API AudioContext.createMediaElementSource() method. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource) or 
+El directorio "media-source-buffer" contiene un ejemplo simple que demuestra el uso del método Web Audio API AudioContext.createMediaElementSource (). Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource](https://developer.mozilla.org/en-US/docs/Web/API / AudioContext / createMediaElementSource) o
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/media-source-buffer/)
 
 
 
-The "offline-audio-context" directory contains a simple example to show how a Web Audio API OfflineAudioContext object can be used to rapidly process/render audio in the background to create a buffer, which can then be used in any way you please. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext](https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext). 
+El directorio "offline-audio-context" contiene un ejemplo simple para mostrar cómo se puede usar un objeto Web Audio API OfflineAudioContext para procesar / renderizar audio rápidamente en segundo plano para crear un búfer, que luego se puede usar de la forma que desee. Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext](https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/offline-audio-context/)
 
 
 
-The "offline-audio-context-promise" directory contains a simple example to show how a Web Audio API OfflineAudioContext object can be used to rapidly process/render audio in the background to create a buffer, which can then be used in any way you please. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext/startRendering(promise)](https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext/startRendering(promise)). 
+El directorio "offline-audio-context-promise" contiene un ejemplo simple para mostrar cómo un objeto Web Audio API OfflineAudioContext puede usarse para procesar / renderizar audio rápidamente en segundo plano para crear un búfer, que luego puede usarse de cualquier manera Por favor. Para obtener más información, consulte [https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext/startRendering(promise)](https://developer.mozilla.org/en-US/docs/ Web / API / OfflineAudioContext / startRendering (promesa)).
 
 + [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/offline-audio-context-promise/)
 
 
 
-The "panner-node" directory contains a demo to show basic usage of a Web Audio API PannerNode to control audio spatialisation. See [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createPanner](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createPanner) for more details. 
+El directorio "panner-node" contiene una demostración para mostrar el uso básico de un PannerNode API de audio web para controlar la espacialización de audio.
 
-+ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/panner-node/)
-
-
-
-The "script-processor-node" directory contains a simple demo showing how to use the Web Audio API's ScriptProcessorNode to process a loaded audio track, adding a little bit of white noise to each audio sample. For more information see [ScriptProcessorNode](https://developer.mozilla.org/en-US/docs/Web/API/ScriptProcessorNode) documentation and the 
-
-+ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/script-processor-node/)
-
-
-
-The "step-sequencer" directory contains a simple step-sequencer that loops and manipulates sounds based on a dial-up modem. For more information see [Advanced techniques: creating sound, sequencing, timing, scheduling](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques).
-
-+ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/step-sequencer/)
-
-
-
-The "stereo-panner-node" directory contains a simple example to show how the Web Audio API StereoPannerNode can be used to pan an audio stream. See [https://developer.mozilla.org/en-US/docs/Web/API/StereoPannerNode](https://developer.mozilla.org/en-US/docs/Web/API/StereoPannerNode) for more details.
-
-+ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/stereo-panner-node/)
-
-
-
-The "stream-source-buffer" directory contains a simple example demonstrating usage of the Web Audio API AudioContext.createMediaElementSource() method. For more information, see [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamSource](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaStreamSource). 
-
-+ [Ver ejemplo](http://sanxofon.github.io/webaudio-examples/stream-source-buffer/)
-
++ Consulte [https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createPanner](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/)
