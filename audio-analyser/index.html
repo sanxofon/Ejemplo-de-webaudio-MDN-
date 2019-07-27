@@ -129,7 +129,7 @@
             // Load the audio from the URL via Ajax and store it in global variable audioData
             // Note that the audio load is asynchronous
             function loadSound(url) {
-            	document.getElementById('msg').innerHTML = "Cargando música: "+url;
+            	document.getElementById('msg').innerHTML = "Cargando música...";
                 var request = new XMLHttpRequest();
                 request.open('GET', url, true);
                 request.responseType = 'arraybuffer';
@@ -137,7 +137,7 @@
                 request.onload = function () {
                     audioContext.decodeAudioData(request.response, function (buffer) {
                         audioData = buffer;
-                        document.getElementById('msg').innerHTML = "Escuchando música: "+url;
+                        document.getElementById('msg').innerHTML = url;
                         playSound(audioData);
                     }, onError);
                 }
